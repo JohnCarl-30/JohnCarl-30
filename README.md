@@ -20,12 +20,7 @@
 name: John Carl Santos
 role: 3rd Year CS Student × Aspiring AI Engineer
 location: Philippines 🇵🇭
-currently_building:
-  - StudyAI — RAG-powered document-to-flashcard platform
-  - ApplyAI — AI-driven job application automation
-learning: [ TypeScript, Redux, Agentic AI ]
-goal: "Build AI systems that solve real problems"
-```
+currently figuring what I want
 
 <br/>
 
