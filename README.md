@@ -17,14 +17,6 @@
 
 ---
 
-## 🚀 Featured Projects
-
-- 🧠 AI Chat App (LangChain + FastAPI)
-- 🤖 Local LLM Assistant (Ollama)
-- 📊 ML Dashboard (React + Flask)
-
----
-
 ## 🛠️ Tech Stack
 
 <div align="center">
