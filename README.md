@@ -1,28 +1,29 @@
-<div align="center">
+# 🚀 John Carl Santos
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=John%20Carl%20Santos&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Aspiring%20AI%20Engineer%20%7C%20Full-Stack%20Developer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+**3rd Year Computer Science Student × Aspiring AI Engineer**  
+🇵🇭 Philippines  
 
-<br/>
+> Exploring the intersection of **AI, systems, and real-world impact**  
+> Building projects, experimenting with ideas, and figuring out where I can create the most value.
 
-<!-- Quick Links -->
-[![Gmail](https://img.shields.io/badge/johncarlsantos30-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johncarlsantos30@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/John_Carl_Santos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/john-carl-santos-51b100287)
-[![GitHub](https://img.shields.io/badge/JohnCarl--30-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JohnCarl-30)
+---
 
-</div>
+## 🧭 Current Focus
 
-<br/>
+- 🤖 Building AI-powered applications (LLMs, agents, automation)
+- ⚡ Learning scalable backend systems for AI
+- 🧠 Exploring deep learning and applied machine learning
+- 🛠 Turning ideas into real, usable products
 
-## `> Who am I`
+---
 
-```yaml
-name: John Carl Santos
-role: 3rd Year CS Student × Aspiring AI Engineer
-location: Philippines 🇵🇭
-currently figuring what I want
+## 🚀 Featured Projects
 
-<br/>
+- 🧠 AI Chat App (LangChain + FastAPI)
+- 🤖 Local LLM Assistant (Ollama)
+- 📊 ML Dashboard (React + Flask)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -75,7 +76,23 @@ currently figuring what I want
 
 </div>
 
-<br/>
+---
+
+## 📚 Currently Learning
+
+- Model optimization & efficient inference
+- Vector databases & retrieval systems
+- AI system design and deployment
+
+---
+
+## 🎯 Goals
+
+- Become a **top-tier AI engineer**
+- Build impactful, real-world AI applications
+- Contribute to meaningful AI products or startups
+
+---
 
 ## 📊 GitHub Analytics
 
@@ -88,14 +105,14 @@ currently figuring what I want
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=JohnCarl-30&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="540" />
 </div>
 
-<br/>
+---
 
 <!-- Activity Graph -->
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=JohnCarl-30&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb" width="95%" />
 </div>
 
-<br/>
+---
 
 <!-- Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
