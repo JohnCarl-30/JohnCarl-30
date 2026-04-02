@@ -65,15 +65,6 @@ status = {
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🔗 Manila LinkUp</h3>
-      <p>Android job-finding app for Filipino students with Firebase Auth, Google Sign-In, and real-time listings.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
-      </p>
-    </td>
   </tr>
 </table>
 
