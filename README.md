@@ -44,16 +44,6 @@ status = {
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🤖 LeadPilot</h3>
-      <p>AI-powered CRM with LangGraph multi-agent orchestration for lead scoring and automated outreach pipelines.</p>
-      <p>
-        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
-      </p>
-    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
