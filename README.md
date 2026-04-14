@@ -12,16 +12,16 @@
 
 ### Hey, I'm CJ 👋
 
-3rd-year CS student at PCU Bulacan, specializing in AI.  
-Building RAG systems, multi-agent pipelines, and full-stack products — not just studying them.
+3rd-year CS student at PCU Bulacan.  
 
 ```python
 status = {
     "internship":  "Express.js team",
-    "building":    "StudyAI — RAG-based study platform",
     "open_to":     "AI Engineer / Full Stack AI Engineer roles",
     "location":    "Philippines 🇵🇭",
-    "certs":       ["Oracle GenAI", "AWS"]
+    "certs":       ["Oracle GenAI", "AWS"],
+    "learning":    "Rust"
+
 }
 ```
 
