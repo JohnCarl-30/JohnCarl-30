@@ -12,6 +12,11 @@
 
 ### Hey, I'm CJ 👋
 
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=JohnCarl-30&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
+
 3rd-year CS student at PCU Bulacan.  
 
 ```python
