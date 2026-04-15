@@ -17,12 +17,10 @@
   <img src="https://komarev.com/ghpvc/?username=JohnCarl-30&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-3rd-year CS student at PCU Bulacan.  
+3rd-year CS student at PCU Bulacan. If you're thinking why I have so many tech stack it's just because I'm curios all and want to make projects from that.
 
 ```python
 status = {
-    "internship":  "Express.js team",
-    "open_to":     "AI Engineer / Full Stack AI Engineer roles",
     "location":    "Philippines 🇵🇭",
     "certs":       ["Oracle GenAI", "AWS"],
     "learning":    "Rust"
