@@ -17,7 +17,8 @@
   <img src="https://komarev.com/ghpvc/?username=JohnCarl-30&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-3rd-year CS student at PCU Bulacan. If you're thinking why I have so many tech stack it's just because I'm curios all and want to make projects from that.
+3rd-year CS student at PCU Bulacan. If you're thinking why I have so many tech stack it's just because I'm curios all want to make projects from that.
+My first programming language is Java because of school req but I switch to Python because I'm interested in computer vision and machine learning. I love to build web even I'm suck at designing but I love to make a web or an app that helps people!!! 
 
 ```python
 status = {
