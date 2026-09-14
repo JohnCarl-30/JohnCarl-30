@@ -66,6 +66,67 @@ status = {
 
 ---
 
+## 🔧 Systems & Infrastructure
+
+A set of four focused on systems depth — durable execution, search internals,
+browser automation, infrastructure-as-code. Each one ends in a **measured
+result** rather than "it runs", and each is verified locally: no cloud
+deployment, and every README says so up front.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔁 <a href="https://github.com/JohnCarl-30/directory-pipeline">directory-pipeline</a></h3>
+      <p>Agentic crawl → extract → enrich → resolve → OpenSearch, orchestrated by Temporal. Zero-downtime reindex behind an alias, measured under live read load: <b>101 concurrent reads through the swap, 0 failures</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+      </p>
+      <sub>144 tests · entity resolution · idempotency & circuit breakers</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🕵️ <a href="https://github.com/JohnCarl-30/browser-harvest">browser-harvest</a></h3>
+      <p>Browser automation with fingerprint hardening, rotating proxies and a compliance gate — proven against a hostile site bundled in the repo that actively detects bots. <b>275 detection points eliminated, 275 → 0</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      </p>
+      <sub>84 tests · honeypot avoidance · robots.txt & PII redaction</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/JohnCarl-30/hybrid-search">hybrid-search</a></h3>
+      <p>BM25 + vector retrieval fused with reciprocal rank fusion, reranked, answered with verified citations — <b>measured against a labeled query set</b> rather than argued about. Found that equal-weight RRF loses to semantic alone, and fixed it.</p>
+      <p>
+        <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white"/>
+      </p>
+      <sub>101 tests · NDCG / MRR / Recall@k · HNSW kNN · eval harness</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>☁️ <a href="https://github.com/JohnCarl-30/azure-durable-pipeline">azure-durable-pipeline</a></h3>
+      <p>The same pipeline on <b>Azure Durable Functions</b> instead of Temporal, with Terraform IaC and identity-based access — no connection strings anywhere. The README compares the two durable-execution engines honestly.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=azurefunctions&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      </p>
+      <sub>61 tests · managed identity + Key Vault · verified on the real host</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>💡 The most useful thing in these is probably the <a href="https://github.com/JohnCarl-30/azure-durable-pipeline#durable-functions-vs-temporal-having-written-both">Durable Functions vs Temporal comparison</a> — same workload built twice, so the write-up is from having actually done it.</sub>
+
+<br/>
+
+---
+
 ## 🛠️ Tech Stack
 
 **AI / ML**
