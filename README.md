@@ -24,8 +24,7 @@ My first programming language is Java because of school req but I switch to Pyth
 status = {
     "location":    "Philippines 🇵🇭",
     "certs":       ["Oracle GenAI", "AWS"],
-    "learning":    "Rust"
-
+    "building":    ["AI agents", "full stack"],
 }
 ```
 
@@ -47,9 +46,8 @@ status = {
         <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
       </p>
+      <sub>RAG · MMR reranking · streaming responses · CI/CD on DigitalOcean</sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🏛️ CiviReport</h3>
       <p>Barangay complaint management system with JWT auth, real-time notifications, and a full REST API backend.</p>
@@ -58,6 +56,7 @@ status = {
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
       </p>
+      <sub>JWT auth · real-time notifications · REST API backend</sub>
     </td>
   </tr>
 </table>
@@ -77,14 +76,14 @@ deployment, and every README says so up front.
   <tr>
     <td width="50%" valign="top">
       <h3>🔁 <a href="https://github.com/JohnCarl-30/directory-pipeline">directory-pipeline</a></h3>
-      <p>Agentic crawl → extract → enrich → resolve → OpenSearch, orchestrated by Temporal. Zero-downtime reindex behind an alias, measured under live read load: <b>101 concurrent reads through the swap, 0 failures</b>.</p>
+      <p>Agentic crawl → extract → enrich → resolve → OpenSearch, orchestrated by Temporal. Zero-downtime reindex behind an alias, measured under live read load: <b>101 concurrent reads through the swap, 0 failures</b>. Ships a search console at <code>/ui</code> — ranked results, facet filters, and the BM25 scoring tree behind every hit.</p>
       <p>
         <img src="https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white"/>
         <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
         <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
       </p>
-      <sub>144 tests · entity resolution · idempotency & circuit breakers</sub>
+      <sub>144 tests · entity resolution · search console with score explain</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🕵️ <a href="https://github.com/JohnCarl-30/browser-harvest">browser-harvest</a></h3>
@@ -131,8 +130,10 @@ deployment, and every README says so up front.
 
 **AI / ML**
 
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
@@ -152,6 +153,8 @@ deployment, and every README says so up front.
 
 **Data & Infra**
 
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -165,18 +168,7 @@ deployment, and every README says so up front.
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=JohnCarl-30&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnCarl-30&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=JohnCarl-30&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="540" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JohnCarl-30&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb" width="95%" />
 </div>
 
 <br/>
