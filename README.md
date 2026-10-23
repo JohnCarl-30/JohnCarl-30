@@ -7,7 +7,7 @@
 
 <!-- Intro -->
 <p align="left">
-  <code>// JohnCarl-30.github.io</code>
+  <code>// <a href="https://www.dyeyc.dev/">dyeyc.dev</a></code>
 </p>
 
 ### Hey, I'm CJ 👋
@@ -17,15 +17,17 @@
   <img src="https://komarev.com/ghpvc/?username=JohnCarl-30&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-4th-year CS student at PCU Bulacan. If you're thinking why I have so many tech stack it's just because I'm curios all want to make projects from that.
-My first programming language is Java because of school req but I switch to Python because I'm interested in computer vision and machine learning. I love to build web even I'm suck at designing but I love to make a web or an app that helps people!!! 
+AI engineer at SOFI AI Tech Solutions and 4th-year CS student at PCU Bulacan, class of 2027.
 
-```python
-status = {
-    "location":    "Philippines 🇵🇭",
-    "certs":       ["Oracle GenAI", "AWS"],
-    "building":    ["AI agents", "full stack"],
-}
+I build AI products end to end: agents, RAG and the evals that show they work. My rule is that a 200 is not proof. Every project below ends in a measured result, not "it runs".
+
+```ts
+const status = {
+  location: "Philippines 🇵🇭",
+  building: "relaydesk — AI support for small businesses",
+  certs: ["Oracle GenAI", "AWS"],
+  openTo: "AI engineer / forward deployed engineer roles, 2027",
+};
 ```
 
 <br/>
@@ -37,26 +39,49 @@ status = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 StudyAI</h3>
-      <p>RAG-based study platform with flashcard generation, MMR reranking, and streaming responses. Full production deployment on DigitalOcean with CI/CD via GitHub Actions.</p>
+      <h3>🛎️ <a href="https://github.com/JohnCarl-30/relaydesk">relaydesk</a></h3>
+      <p>AI customer support as a widget plus a staff inbox. It answers from the business's help center with citations, and when the help center has no answer it says so and opens a ticket. A co-pilot drafts the reply; a person sends it. One help center per business, self-serve setup, and an MCP server so agents can work the inbox.</p>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square"/>
+        <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white"/>
       </p>
-      <sub>RAG · MMR reranking · streaming responses · CI/CD on DigitalOcean</sub>
+      <sub>retrieval hit@3 55/60 · ticket precision 1.00 · Langfuse experiment gate on every PR</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>🏛️ CiviReport</h3>
-      <p>Barangay complaint management system with JWT auth, real-time notifications, and a full REST API backend.</p>
+      <h3>✍️ <a href="https://github.com/JohnCarl-30/auto-learn">auto-learn</a></h3>
+      <p>Fix your sentence, and learn the word that fixed it. An ESL writing tool where the better word is withheld server-side until you open its card: the replacement text does not exist on the client until the teaching does. Now with a speaking partner.</p>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
       </p>
-      <sub>JWT auth · real-time notifications · REST API backend</sub>
+      <sub>pnpm monorepo · shared Zod contract · evals · Playwright e2e</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📉 <a href="https://github.com/JohnCarl-30/rag-eval-harness">rag-eval-harness</a></h3>
+      <p>Your RAG got worse. Your tests stayed green. A regression gate for RAG pipelines: score a golden set, keep every run, and fail CI when retrieval or answers slip. A weaker retriever cut <b>context recall 0.880 → 0.740</b> and the gate exited 1.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RAGAS-1C3C3C?style=flat-square"/>
+        <img src="https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white"/>
+      </p>
+      <sub>on PyPI · keyless CI mode · baseline diff view</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✅ <a href="https://github.com/JohnCarl-30/closer">closer</a></h3>
+      <p>A post-ship agent. Paste a merged PR: it marks the Linear issue Done, emails whoever asked, then re-reads both apps. A 200 from Gmail is not enough; the message has to show up in sent mail. Ambiguous matches mean zero writes until a human picks.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Linear-5E6AD2?style=flat-square&logo=linear&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+      </p>
+      <sub>hackathon build · verifier re-reads every write · claims checked in CI</sub>
     </td>
   </tr>
 </table>
@@ -128,38 +153,34 @@ deployment, and every README says so up front.
 
 ## 🛠️ Tech Stack
 
-**AI / ML**
+**AI**
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Vercel AI SDK](https://img.shields.io/badge/AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square)
+![RAGAS](https://img.shields.io/badge/RAGAS-1C3C3C?style=flat-square)
 
-**Backend**
+**Languages & Frameworks**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-
-**Frontend**
-
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 **Data & Infra**
 
-![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 <br/>
 
