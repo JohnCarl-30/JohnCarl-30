@@ -90,6 +90,19 @@ const status = {
 
 ---
 
+## 🌍 Open Source
+
+I fix bugs in the AI tools I build on. Merged pull requests, counted live:
+
+| Project | What it is | Merged |
+| --- | --- | :---: |
+| [kyegomez/swarms](https://github.com/kyegomez/swarms/pulls?q=is%3Apr+author%3AJohnCarl-30+is%3Amerged) | Multi-agent orchestration framework | ![merged](https://img.shields.io/github/issues-search?query=repo%3Akyegomez%2Fswarms%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
+| [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon/pulls?q=is%3Apr+author%3AJohnCarl-30+is%3Amerged) | Memory layer for AI agents | ![merged](https://img.shields.io/github/issues-search?query=repo%3AAsymptote-Labs%2Fagent-beacon%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
+
+<br/>
+
+---
+
 ## 🛠️ Tech Stack
 
 **AI**
