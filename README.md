@@ -100,6 +100,7 @@ I fix bugs in the AI tools I build on. Merged pull requests, counted live:
 | [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon/pulls?q=is%3Apr+author%3AJohnCarl-30+is%3Amerged) | Memory layer for AI agents | ![merged](https://img.shields.io/github/issues-search?query=repo%3AAsymptote-Labs%2Fagent-beacon%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use/pulls?q=is%3Apr+author%3AJohnCarl-30+is%3Amerged) | Full-stack framework for MCP servers, clients and agents | ![merged](https://img.shields.io/github/issues-search?query=repo%3Amcp-use%2Fmcp-use%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
 | [hydra-db/selfgraph](https://github.com/hydra-db/selfgraph/pulls?q=is%3Apr+author%3AJohnCarl-30+is%3Amerged) | Versioned knowledge graphs for AI agents | ![merged](https://img.shields.io/github/issues-search?query=repo%3Ahydra-db%2Fselfgraph%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
+| [traceroot-ai](https://github.com/pulls?q=is%3Apr+author%3AJohnCarl-30+org%3Atraceroot-ai+is%3Amerged) | Open-source observability and debugging for AI agents | ![merged](https://img.shields.io/github/issues-search?query=org%3Atraceroot-ai%20author%3AJohnCarl-30%20is%3Apr%20is%3Amerged&label=merged&color=2ea44f) |
 
 <br/>
 
